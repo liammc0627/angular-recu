@@ -8,7 +8,7 @@ import { Evento } from '../i-event';
   providedIn: 'root',
 })
 export class EventosService {
-  private eventosEndpoint = 'http://localhost:3000/eventos';
+  private eventosEndpoint = 'https://my-json-server.typicode.com/liammc0627/angular-recu/eventos';
 
   constructor(private http: HttpClient) {}
 
